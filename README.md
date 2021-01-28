@@ -62,7 +62,7 @@ $ python3 huffman.py -decode bitcodes.dat encoded-text.bin
 
 ### Visualization of sample.txt file in Huffman Tree:
 
-![Huffman-Tree](sample-visualization/huffman-tree.dot.pdf)
+![Huffman-Tree](./sample-visualization/huffman-tree.dot.pdf)
 
 
 ### REFERENCES:
