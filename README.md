@@ -60,6 +60,10 @@ $ python3 huffman.py -decode bitcodes.dat encoded-text.bin
 # Ouput will be original file <decoded-text.txt>
 ```
 
+### Visualization of sample.txt file in Huffman Tree:
+
+![Huffman-Tree](sample-visualization/huffman-tree.dot.pdf)
+
 
 ### REFERENCES:
 Huffman Coding (https://en.wikipedia.org/wiki/Huffman_coding) 
