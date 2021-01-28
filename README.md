@@ -42,6 +42,7 @@ $ python3 huffman.py -buildtree frequency.txt
 # Now, you can visualize the Tree with bitcodes.dat and visualize.dat that generated from -buildtree command
 $ python3 huffman.py -visualize bitcodes.dat visualize.dat
 # Ouput will have two files one is .dot file which is the code for Huffman Tree and .pdf file for viewing the visualization
+# Note that the leaf nodes are in this format ['<character>', <frequency>]/<bitcode value>, other nodes are just frequencies and sums of frequencies.
 ```
 
 
