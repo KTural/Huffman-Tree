@@ -351,7 +351,7 @@ class Huffman:
                     dot.node(self.bit_codes[self.char_freq[i-1][0]], f'{self.char_freq[i-1]}/{self.bit_codes[self.char_freq[i-1][0]]}')
                     dot.edge(p, self.bit_codes[self.char_freq[i-2][0]])
                     dot.edge(p, self.bit_codes[self.char_freq[i-1][0]])
-                # remove current leaf nodes    
+                # remove current nodes    
                 self.char_freq = self.char_freq[:i-2] + self.char_freq[i:]   
                 start = i - 1
                 i -= 2
